@@ -2,10 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "nuxt-icon",
     "@nuxtjs/google-fonts",
+    "@pinia/nuxt",
   ],
   css: ["~/assets/css/main.css"],
   postcss: {
