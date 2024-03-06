@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@pinia/nuxt",
   ],
+  build: {
+    transpile: ["pinia-plugin-persistedstate"],
+  },
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
