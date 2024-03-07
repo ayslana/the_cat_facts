@@ -1,75 +1,36 @@
-# Nuxt 3 Minimal Starter
+# Overview
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The Cat Facts is a web application built using Nuxt 3 and JavaScript. It utilizes Pinia for state management and Jest for unit testing. Tailwind CSS was chosen for styling purposes, along with Nuxt Icon and Google Fonts modules to enhance the visual appeal of the application.
 
-## Setup
+## Technologies Used
 
-Make sure to install the dependencies:
+- Nuxt 3
+- JavaScript
+- Pinia
+- Jest
+- Tailwind CSS
+- Nuxt Icon Module
+- Google Fonts
+- Axios
 
-```bash
-# npm
-npm install
+## Getting Started
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+To get started with Project Black, follow these steps:
 
 ```bash
-# npm
-npm run dev
+Clone the repository: git clone <git@github.com:ayslana/the_cat_facts.git>
 
-# pnpm
-pnpm run dev
+Install dependencies: npm install
 
-# yarn
-yarn dev
+Run the development server: npm run dev
 
-# bun
-bun run dev
+Access the application at http://localhost:3000
 ```
 
-## Production
+## Features
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Built with Nuxt 3 and JavaScript for efficient web development.
+Utilizes Pinia for robust state management.
+Jest is integrated for comprehensive unit testing.
+Tailwind CSS provides a utility-first approach for styling the application.
+Nuxt Icon module and Google Fonts enhance the visual aesthetics of the application.
