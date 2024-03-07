@@ -9,7 +9,18 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: "Jost",
+      },
+      colors: {
+        "purple-darker": "#22223B",
+        "purple-medium": "#4A4E69",
+        "purple-lighter": "#9A8C98",
+        "rose-medium": "#C9ADA7",
+        "rose-lighter": "#F2E9E4",
+      },
+    },
   },
   plugins: [],
 };
