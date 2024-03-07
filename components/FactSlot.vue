@@ -16,7 +16,7 @@ function toggleFadeInOut() {
 <template>
   <div class="h-full flex flex-col justify-between px-12 mx-12">
     <div
-      class="flex flex-col text-purple-darker text-3xl font-bold uppercase py-6"
+      class="flex flex-col text-purple-darker text-3xl font-medium uppercase py-6"
       title="Cat Fact"
     >
       <p>Cat Fact:</p>
@@ -33,7 +33,7 @@ function toggleFadeInOut() {
         </span>
       </p>
     </div>
-    <div class="pt-12 mt-12">
+    <div class="pt-12 mt-6">
       <DefaultButton
         label="Get A Random Catfact"
         hasPrependIcon
@@ -42,9 +42,10 @@ function toggleFadeInOut() {
       >
         <template #prepend-icon>
           <Icon
-            class="mr-2"
+            class="mr-3"
             name="material-symbols:refresh"
             color="text-rose-lighter"
+            size="1.5rem"
           />
         </template>
       </DefaultButton>
